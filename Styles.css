@@ -1,21 +1,42 @@
 #header {
-    background-color: rgb(red, green, blue);
-    color: #FF0000;
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+#searchbar {
+
 }
 td.left{
     float: left;
+    margin-top: 10px;
     margin-left: 1%;
     font-size: 40px;
 }
 td.right{
     float: right;
     text-align: right;
+
+    margin-top: 15px;
     margin-right: 1%;
 }
 
-#login{
+#buttons{
     display: block;
 }
-#login:hover{
-    transform: translateY(4px);
+#buttons:hover{
+    transform: translateY(3px);
+    transition-duration: 0.4s;
+}
+#searchbutton{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+#searchbutton:hover{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #000000;
 }
