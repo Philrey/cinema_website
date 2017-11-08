@@ -1,0 +1,21 @@
+#header {
+    background-color: rgb(red, green, blue);
+    color: #FF0000;
+}
+td.left{
+    float: left;
+    margin-left: 1%;
+    font-size: 40px;
+}
+td.right{
+    float: right;
+    text-align: right;
+    margin-right: 1%;
+}
+
+#login{
+    display: block;
+}
+#login:hover{
+    transform: translateY(4px);
+}
